@@ -93,6 +93,9 @@ public class Tabuleiro implements Cloneable {
         // faça
     }
 
+    public Tabuleiro() {
+    }
+
     public Tabuleiro(Tabuleiro modelo) throws Exception {
         if (modelo == null)
             throw new Exception("O modelo não pode ser inválido!");
